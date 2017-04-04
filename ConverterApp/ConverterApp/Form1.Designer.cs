@@ -40,6 +40,7 @@
             this.btn_CM_to_Feet = new System.Windows.Forms.Button();
             this.btn_KM_to_Miles = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cbSelectCalculation = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -165,11 +166,21 @@
             this.panel1.Size = new System.Drawing.Size(441, 34);
             this.panel1.TabIndex = 11;
             // 
+            // cbSelectCalculation
+            // 
+            this.cbSelectCalculation.FormattingEnabled = true;
+            this.cbSelectCalculation.Location = new System.Drawing.Point(240, 96);
+            this.cbSelectCalculation.Name = "cbSelectCalculation";
+            this.cbSelectCalculation.Size = new System.Drawing.Size(232, 21);
+            this.cbSelectCalculation.TabIndex = 12;
+            this.cbSelectCalculation.SelectedIndexChanged += new System.EventHandler(this.cbSelectCalculation_SelectedIndexChanged);
+            // 
             // frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(547, 413);
+            this.Controls.Add(this.cbSelectCalculation);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_KM_to_Miles);
             this.Controls.Add(this.btn_CM_to_Feet);
@@ -204,6 +215,7 @@
         private System.Windows.Forms.Button btn_CM_to_Feet;
         private System.Windows.Forms.Button btn_KM_to_Miles;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox cbSelectCalculation;
     }
 }
 

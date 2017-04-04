@@ -21,19 +21,39 @@ namespace ConverterApp
             InitializeComponent();
             lbl_Display.Text = "";
             lbl_Display.TextAlign = ContentAlignment.MiddleRight;
+
+
+            string[] myList = new string[4];
+
+            myList[0] = "Centimetres to Inches";
+            myList[1] = "Two";
+            myList[2] = "Three";
+            myList[3] = "Four";
+
+            cbSelectCalculation.Items.AddRange(myList);
+            
+
+            
         }
+
+
+
 
         // Global Variables and Constants
         double dbl_UofM;
         double dbl_Convert;
+        const double CM_TO_INCH = 0.3937;
         string FromMeasurementTypeText;
         string ToMeasurementTypeText;
+
 
         private void btn_Exit_Click(object sender, EventArgs e)
         {
             Application.Exit();
             // Exits the program
         }
+
+        #region button click event handlers
 
         private void btn_CM_to_Inches_Click(object sender, EventArgs e)
         {
@@ -90,6 +110,18 @@ namespace ConverterApp
             // calls DoTheConversion
         }
 
+        #endregion
+
+
+        
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="CM_TO_INCH"></param>
+        /// <param name="FromMeasurementTypeText"></param>
+        /// <param name="ToMeasurementTypeText"></param>
         private void DoTheConversion(double CM_TO_INCH, string FromMeasurementTypeText, string ToMeasurementTypeText)
         {
             DoTheConversion(CM_TO_INCH, FromMeasurementTypeText, ToMeasurementTypeText, 0);
@@ -151,8 +183,24 @@ namespace ConverterApp
             // pluralises passed in string to singular
         }
 
+        private void cbSelectCalculation_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
-
-
+            switch (cbSelectCalculation.SelectedIndex)
+            {
+                case 0:  // ..... some code here...
+                 
+                    FromMeasurementTypeText = "centimetres";
+                    ToMeasurementTypeText = "inches";
+                    DoTheConversion(CM_TO_INCH, FromMeasurementTypeText, ToMeasurementTypeText);
+                    break;
+                //case 2:  // ..... some code here...
+                //    break;
+                //case 3:  // ..... some code here...
+                //    break;
+                //default: // ..... some code here...
+                //    break;
+            }
+        }
     }
 }

@@ -34,3 +34,11 @@ C:\Users\George\Dropbox\TAFE\Open Source And Testing Cluster\Assessment 2\Conver
 C:\Users\George\Dropbox\TAFE\Open Source And Testing Cluster\Assessment 2\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
 C:\Users\George\Dropbox\TAFE\Open Source And Testing Cluster\Assessment 2\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
 C:\Users\George\Dropbox\TAFE\Open Source And Testing Cluster\Assessment 2\ConverterApp\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe.config
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\obj\Debug\ConverterApp.exe
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\obj\Debug\ConverterApp.pdb
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\bin\Debug\ConverterApp.pdb
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\obj\Debug\ConverterApp.frm_Main.resources
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\obj\Debug\ConverterApp.Properties.Resources.resources
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csproj.GenerateResource.Cache
