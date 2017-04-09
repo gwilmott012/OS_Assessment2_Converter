@@ -51,7 +51,7 @@
             this.txt_UnitOfMeasure.Margin = new System.Windows.Forms.Padding(2);
             this.txt_UnitOfMeasure.Name = "txt_UnitOfMeasure";
             this.txt_UnitOfMeasure.Size = new System.Drawing.Size(76, 20);
-            this.txt_UnitOfMeasure.TabIndex = 1;
+            this.txt_UnitOfMeasure.TabIndex = 0;
             // 
             // btn_Exit
             // 
@@ -82,7 +82,7 @@
             this.lbl_Convert.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_Convert.Name = "lbl_Convert";
             this.lbl_Convert.Size = new System.Drawing.Size(0, 13);
-            this.lbl_Convert.TabIndex = 6;
+            this.lbl_Convert.TabIndex = 2;
             // 
             // txt_Convert
             // 
@@ -91,7 +91,7 @@
             this.txt_Convert.Name = "txt_Convert";
             this.txt_Convert.ReadOnly = true;
             this.txt_Convert.Size = new System.Drawing.Size(54, 20);
-            this.txt_Convert.TabIndex = 7;
+            this.txt_Convert.TabIndex = 3;
             // 
             // panel1
             // 
@@ -101,7 +101,7 @@
             this.panel1.Location = new System.Drawing.Point(43, 12);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(441, 58);
-            this.panel1.TabIndex = 11;
+            this.panel1.TabIndex = 0;
             // 
             // lblInstruction1
             // 
@@ -109,7 +109,7 @@
             this.lblInstruction1.Location = new System.Drawing.Point(2, 0);
             this.lblInstruction1.Name = "lblInstruction1";
             this.lblInstruction1.Size = new System.Drawing.Size(434, 32);
-            this.lblInstruction1.TabIndex = 2;
+            this.lblInstruction1.TabIndex = 0;
             this.lblInstruction1.Text = "1. Input metric value to be converted";
             this.lblInstruction1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -119,7 +119,7 @@
             this.cbSelectCalculation.Location = new System.Drawing.Point(99, 58);
             this.cbSelectCalculation.Name = "cbSelectCalculation";
             this.cbSelectCalculation.Size = new System.Drawing.Size(232, 21);
-            this.cbSelectCalculation.TabIndex = 12;
+            this.cbSelectCalculation.TabIndex = 1;
             this.cbSelectCalculation.SelectedIndexChanged += new System.EventHandler(this.cbSelectCalculation_SelectedIndexChanged);
             // 
             // panel2
@@ -130,7 +130,7 @@
             this.panel2.Location = new System.Drawing.Point(43, 135);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(441, 84);
-            this.panel2.TabIndex = 13;
+            this.panel2.TabIndex = 1;
             // 
             // lblInstruction2
             // 
@@ -138,7 +138,7 @@
             this.lblInstruction2.Location = new System.Drawing.Point(3, 0);
             this.lblInstruction2.Name = "lblInstruction2";
             this.lblInstruction2.Size = new System.Drawing.Size(433, 23);
-            this.lblInstruction2.TabIndex = 13;
+            this.lblInstruction2.TabIndex = 0;
             this.lblInstruction2.Text = "2. Choose measurement to be converted by.";
             this.lblInstruction2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 

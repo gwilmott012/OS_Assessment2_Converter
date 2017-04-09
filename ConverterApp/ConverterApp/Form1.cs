@@ -23,7 +23,6 @@ namespace ConverterApp
             // initializing the label to display nothing.
             lbl_Display.Text = "";
             lbl_Display.TextAlign = ContentAlignment.MiddleRight;
-
           
             // creating new array of strings to hold the different options to convert between.
             string[] converionOptionsArray = new string[] 
@@ -70,7 +69,7 @@ namespace ConverterApp
             {
                 // Validation for a numeric value.
                 message = "A numeric must be entered. Please re-enter the value.";
-                MessageBox.Show(message);
+                MessageBox.Show(message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 txt_UnitOfMeasure.Clear();
                 txt_UnitOfMeasure.Focus();
                 txt_Convert.Clear();
@@ -81,6 +80,9 @@ namespace ConverterApp
             {
                 // converts passed in metric values to imperial.
                 ConvertedValue = ValueToConvert * ConversionRatio + AddOnValue;
+
+                // rounds the result to 4 decimal places. 
+                ConvertedValue = Math.Round(ConvertedValue, 4);
                 txt_Convert.Text = ConvertedValue.ToString();
                 lbl_Display.Text = String.Format("{0} {1} is converted to ", txt_UnitOfMeasure.Text, ConvertToSingular(FromMeasurementTypeText, ValueToConvert));
                 lbl_Convert.Text = String.Format(" {0}.", ConvertToSingular(ToMeasurementTypeText, ConvertedValue));
