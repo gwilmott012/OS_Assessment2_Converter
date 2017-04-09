@@ -32,6 +32,7 @@ namespace ConverterApp
             myList[4] = "Kilometres to Miles";
 
             cbSelectCalculation.Items.AddRange(myList);
+            // Adds all arrays to combo box
         }
 
 
@@ -55,6 +56,7 @@ namespace ConverterApp
 
         #region button click event handlers
 
+        /*
         private void btn_CM_to_Inches_Click(object sender, EventArgs e)
         {
             const double CM_TO_INCH = 0.3937;
@@ -62,7 +64,7 @@ namespace ConverterApp
             ToMeasurementTypeText = "inches";
 
             DoTheConversion(CM_TO_INCH, FromMeasurementTypeText, ToMeasurementTypeText);
-            // calls DoTheConversion
+            // calls DoTheConversion passing in CM_TO_INCH to multiply by.
         }
 
         private void btn_M_to_Feet_Click(object sender, EventArgs e)
@@ -72,7 +74,7 @@ namespace ConverterApp
             ToMeasurementTypeText = "feet";
 
             DoTheConversion(M_TO_FT, FromMeasurementTypeText, ToMeasurementTypeText);
-            // calls DoTheConversion
+            // calls DoTheConversion passing in M_TO_FT to multiply by.
         }
 
         private void btn_C_to_Fahrenheit_Click(object sender, EventArgs e)
@@ -82,7 +84,7 @@ namespace ConverterApp
             ToMeasurementTypeText = "degrees fahrenheit";
 
             DoTheConversion(C_TO_FHeit, FromMeasurementTypeText, ToMeasurementTypeText, 32);
-            // calls DoTheConversion
+            // calls DoTheConversion passing in C_TO_FHeit to multiply by.
         }
 
         private void btn_CM_to_Feet_Click(object sender, EventArgs e)
@@ -92,7 +94,7 @@ namespace ConverterApp
             ToMeasurementTypeText = "feet";
 
             DoTheConversion(CM_TO_Feet, FromMeasurementTypeText, ToMeasurementTypeText);
-            // calls DoTheConversion
+            // calls DoTheConversion passing in CM_TO_Feet to multiply by.
         }
 
         private void btn_KM_to_Miles_Click(object sender, EventArgs e)
@@ -102,8 +104,9 @@ namespace ConverterApp
             ToMeasurementTypeText = "miles";
 
             DoTheConversion(KM_TO_Miles, FromMeasurementTypeText, ToMeasurementTypeText);
-            // calls DoTheConversion
+            // calls DoTheConversion passing inK M_TO_Miles to multiply by.
         }
+        */
 
         #endregion
 
@@ -116,6 +119,7 @@ namespace ConverterApp
         {
             if (!double.TryParse(txt_UnitOfMeasure.Text, out dbl_UofM))
             {
+                // Validation for a numeric value
                 MessageBox.Show("A numeric must be entered. Please re-enter the value.");
                 txt_UnitOfMeasure.Clear();
                 txt_UnitOfMeasure.Focus();
@@ -199,6 +203,7 @@ namespace ConverterApp
                 default:
                     MessageBox.Show("That selection is not valid");
                     break;
+                    // checks what value in combo box is selected and based on the value converts to imperial
             }
         }
     }
