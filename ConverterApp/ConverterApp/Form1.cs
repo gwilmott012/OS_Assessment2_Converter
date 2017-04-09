@@ -54,62 +54,6 @@ namespace ConverterApp
             // Exits the program
         }
 
-        #region button click event handlers
-
-        /*
-        private void btn_CM_to_Inches_Click(object sender, EventArgs e)
-        {
-            const double CM_TO_INCH = 0.3937;
-            FromMeasurementTypeText = "centimetres";
-            ToMeasurementTypeText = "inches";
-
-            DoTheConversion(CM_TO_INCH, FromMeasurementTypeText, ToMeasurementTypeText);
-            // calls DoTheConversion passing in CM_TO_INCH to multiply by.
-        }
-
-        private void btn_M_to_Feet_Click(object sender, EventArgs e)
-        {
-            const double M_TO_FT = 3.28084;
-            FromMeasurementTypeText = "metres";
-            ToMeasurementTypeText = "feet";
-
-            DoTheConversion(M_TO_FT, FromMeasurementTypeText, ToMeasurementTypeText);
-            // calls DoTheConversion passing in M_TO_FT to multiply by.
-        }
-
-        private void btn_C_to_Fahrenheit_Click(object sender, EventArgs e)
-        {
-            const double C_TO_FHeit = 1.8;
-            FromMeasurementTypeText = "degrees celcius";
-            ToMeasurementTypeText = "degrees fahrenheit";
-
-            DoTheConversion(C_TO_FHeit, FromMeasurementTypeText, ToMeasurementTypeText, 32);
-            // calls DoTheConversion passing in C_TO_FHeit to multiply by.
-        }
-
-        private void btn_CM_to_Feet_Click(object sender, EventArgs e)
-        {
-            const double CM_TO_Feet = (1 / 30.48);
-            FromMeasurementTypeText = "centimetres";
-            ToMeasurementTypeText = "feet";
-
-            DoTheConversion(CM_TO_Feet, FromMeasurementTypeText, ToMeasurementTypeText);
-            // calls DoTheConversion passing in CM_TO_Feet to multiply by.
-        }
-
-        private void btn_KM_to_Miles_Click(object sender, EventArgs e)
-        {
-            const double KM_TO_Miles = (1 / 1.609344);
-            FromMeasurementTypeText = "kilometres";
-            ToMeasurementTypeText = "miles";
-
-            DoTheConversion(KM_TO_Miles, FromMeasurementTypeText, ToMeasurementTypeText);
-            // calls DoTheConversion passing inK M_TO_Miles to multiply by.
-        }
-        */
-
-        #endregion
-
         private void DoTheConversion(double CM_TO_INCH, string FromMeasurementTypeText, string ToMeasurementTypeText)
         {
             DoTheConversion(CM_TO_INCH, FromMeasurementTypeText, ToMeasurementTypeText, 0);
