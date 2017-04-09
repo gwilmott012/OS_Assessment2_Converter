@@ -34,8 +34,8 @@
             this.lbl_Convert = new System.Windows.Forms.Label();
             this.txt_Convert = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cbSelectCalculation = new System.Windows.Forms.ComboBox();
             this.lblInstruction1 = new System.Windows.Forms.Label();
+            this.cbSelectCalculation = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.lblInstruction2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -103,15 +103,6 @@
             this.panel1.Size = new System.Drawing.Size(441, 58);
             this.panel1.TabIndex = 11;
             // 
-            // cbSelectCalculation
-            // 
-            this.cbSelectCalculation.FormattingEnabled = true;
-            this.cbSelectCalculation.Location = new System.Drawing.Point(99, 58);
-            this.cbSelectCalculation.Name = "cbSelectCalculation";
-            this.cbSelectCalculation.Size = new System.Drawing.Size(232, 21);
-            this.cbSelectCalculation.TabIndex = 12;
-            this.cbSelectCalculation.SelectedIndexChanged += new System.EventHandler(this.cbSelectCalculation_SelectedIndexChanged);
-            // 
             // lblInstruction1
             // 
             this.lblInstruction1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -121,6 +112,15 @@
             this.lblInstruction1.TabIndex = 2;
             this.lblInstruction1.Text = "1. Input metric value to be converted";
             this.lblInstruction1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // cbSelectCalculation
+            // 
+            this.cbSelectCalculation.FormattingEnabled = true;
+            this.cbSelectCalculation.Location = new System.Drawing.Point(99, 58);
+            this.cbSelectCalculation.Name = "cbSelectCalculation";
+            this.cbSelectCalculation.Size = new System.Drawing.Size(232, 21);
+            this.cbSelectCalculation.TabIndex = 12;
+            this.cbSelectCalculation.SelectedIndexChanged += new System.EventHandler(this.cbSelectCalculation_SelectedIndexChanged);
             // 
             // panel2
             // 

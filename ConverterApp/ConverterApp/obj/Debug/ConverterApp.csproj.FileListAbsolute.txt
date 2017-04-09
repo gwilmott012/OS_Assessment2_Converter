@@ -54,3 +54,4 @@ C:\Users\George\Dropbox\TAFE\Open Source And Testing Cluster\Assessment 2\Conver
 C:\Users\George\Desktop\Dropbox\TAFE\Open Source And Testing Cluster\Assessment 2\ConverterApp\ConverterApp\bin\Debug\ConverterApp.exe.config
 C:\Users\George\Desktop\Dropbox\TAFE\Open Source And Testing Cluster\Assessment 2\ConverterApp\ConverterApp\obj\Debug\ConverterApp.exe
 C:\Users\George\Desktop\Dropbox\TAFE\Open Source And Testing Cluster\Assessment 2\ConverterApp\ConverterApp\obj\Debug\ConverterApp.pdb
+C:\Users\George\Documents\GitHub\OS_Assessment2_Converter\ConverterApp\ConverterApp\obj\Debug\ConverterApp.csprojResolveAssemblyReference.cache
